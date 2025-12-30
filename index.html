@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamers Club FSS - Faculté des Sciences de Sfax</title>
+    <meta name="description" content="Dreamers Club FSS - Un club dynamique et polyvalent dédié à la formation, développement personnel et épanouissement des étudiants.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="logo-wrapper">
+                <img src="images/logo.png" alt="Dreamers Club FSS Logo" class="preloader-logo">
+                <div class="logo-glow"></div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Chargement de la créativité...</p>
+        </div>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <span class="lang-separator">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo logo-animated">
+                <div class="logo-img-wrapper">
+                    <img src="logo.png" alt="Dreamers Club FSS Logo" class="nav-logo-img">
+                    <div class="logo-glow"></div>
+                    <div class="logo-decoration"></div>
+                </div>
+                <div class="logo-text-wrapper">
+                    <div class="logo-name">
+                        <span class="logo-name-main">Dreamers Club</span>
+                        <span class="logo-name-sub">FSS</span>
+                    </div>
+                </div>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active" data-index="0">
+                    <span class="nav-icon"><i class="fas fa-home"></i></span>
+                    <span class="nav-text" data-translate="home">Accueil</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#information" class="nav-link" data-index="1">
+                    <span class="nav-icon"><i class="fas fa-info-circle"></i></span>
+                    <span class="nav-text" data-translate="information">Notre Histoire</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#events" class="nav-link" data-index="2">
+                    <span class="nav-icon"><i class="fas fa-calendar-alt"></i></span>
+                    <span class="nav-text" data-translate="events">Événements</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#chapters" class="nav-link" data-index="3">
+                    <span class="nav-icon"><i class="fas fa-layer-group"></i></span>
+                    <span class="nav-text" data-translate="chapters">Chapitres</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#bureau" class="nav-link" data-index="4">
+                    <span class="nav-icon"><i class="fas fa-users"></i></span>
+                    <span class="nav-text" data-translate="bureau">Bureau</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#join" class="nav-link" data-index="5">
+                    <span class="nav-icon"><i class="fas fa-user-plus"></i></span>
+                    <span class="nav-text" data-translate="join">Rejoindre</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-index="6">
+                    <span class="nav-icon"><i class="fas fa-envelope"></i></span>
+                    <span class="nav-text" data-translate="contact">Contact</span>
+                    <span class="nav-ripple"></span>
+                </a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="#join" class="btn btn-gold btn-small" data-translate="joinButton">Rejoindre le Club</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+            <div class="particles" id="particles-js"></div>
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="badge">
+                            <span>Faculté des Sciences de Sfax</span>
+                            <span class="university-badge">Université de Sfax</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="hero-line">Dreamers</span>
+                            <span class="hero-line">Club FSS</span>
+                        </h1>
+                        <h2 class="hero-subtitle" data-translate="homeSubtitle">Rêver. Créer. Inspirer.</h2>
+                        <p class="hero-description" data-translate="homeDescription">
+                            Un club dynamique et polyvalent au sein de la Faculté des Sciences de Sfax, 
+                            dédié à la formation, au développement personnel et à l'épanouissement de ses membres.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#join" class="btn btn-gold btn-icon">
+                                <span data-translate="joinButton">Rejoindre le Club</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#bureau" class="btn btn-outline btn-icon">
+                                <span>Rencontrer le Bureau</span>
+                                <i class="fas fa-users"></i>
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="5">0</span>
+                                <span class="stat-label" data-translate="chaptersCount">Chapitres</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="150">0</span>
+                                <span class="stat-label" data-translate="membersCount">Membres actifs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="22">0</span>
+                                <span class="stat-label" data-translate="eventsCount">Événements/an</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="home-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="floating-cards">
+                            <div class="floating-card card-1">
+                                <div class="card-content">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <h4>Formation</h4>
+                                </div>
+                            </div>
+                            <div class="floating-card card-2">
+                                <div class="card-content">
+                                    <i class="fas fa-palette"></i>
+                                    <h4>Art & Music</h4>
+                                </div>
+                            </div>
+                            <div class="floating-card card-3">
+                                <div class="card-content">
+                                    <i class="fas fa-futbol"></i>
+                                    <h4>Tournoi</h4>
+                                </div>
+                            </div>
+                            <div class="floating-card card-4">
+                                <div class="card-content">
+                                    <i class="fas fa-users"></i>
+                                    <h4>Équipe</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="main-visual">
+                            <div class="visual-image">
+                                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Étudiants Dreamers Club FSS">
+                                <div class="visual-overlay"></div>
+                                <div class="visual-badge">
+                                    <span>Depuis 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Information Section -->
+        <section id="information" class="section info-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title" data-translate="infoTitle">Notre Histoire</h2>
+                    <p class="section-subtitle" data-translate="infoSubtitle">Une vision d'inspiration et d'engagement</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                
+                <div class="founder-showcase" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-image-wrapper">
+                        <div class="founder-frame">
+                            <img src="amin.jpg" alt="Mohamed Amine Ben Jwira">
+                            <div class="frame-decoration"></div>
+                        </div>
+                        <div class="founder-badge">
+                            <i class="fas fa-crown"></i>
+                            <span>Fondateur</span>
+                        </div>
+                    </div>
+                    
+                    <div class="founder-content">
+                        <div class="content-header">
+                            <h3>Mohamed Amine Ben Jwira</h3>
+                            <p class="founder-title" data-translate="founderTitle">Fondateur du Dreamers Club FSS</p>
+                            <div class="founder-credentials">
+                                <span class="credential"><i class="fas fa-calendar-day"></i> 23 Septembre 2023</span>
+                                <span class="credential"><i class="fas fa-university"></i> Faculté des Sciences Sfax</span>
+                            </div>
+                        </div>
+                        
+                        <div class="content-body">
+                            <p>
+                                Le Dreamers Club FSS a été fondé le 23 septembre 2023 par Mohamed Amine Ben Jwira. 
+                                Depuis sa création, le club incarne une vision d'inspiration, d'engagement et de 
+                                développement personnel pour tous les étudiants passionnés.
+                            </p>
+                            <blockquote class="quote-card">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="quote-text" data-translate="founderQuote">
+                                    "Le Dreamers Club FSS n'est pas seulement un club – c'est une famille, un espace 
+                                    de créativité, de développement personnel et d'engagement. On rêve, on agit, on inspire, 
+                                    Ensemble..."
+                                </p>
+                                <div class="quote-author">
+                                    <div class="author-line"></div>
+                                    <span>Mohamed Amine Ben Jwira</span>
+                                </div>
+                            </blockquote>
+                            
+                            <p>
+                                Tout au long de l'année, nous avons semé l'inspiration, cultivé l'apprentissage 
+                                et récolté des souvenirs inoubliables. Grâce à la vision et à l'énergie de notre 
+                                fondateur, Dreamers Club FSS est devenu un foyer pour les rêveurs actifs.
+                            </p>
+                            
+                            <div class="founder-achievements">
+                                <div class="achievement">
+                                    <i class="fas fa-heart"></i>
+                                    <div>
+                                        <h4>Une Famille</h4>
+                                        <p>Espace de créativité et d'engagement</p>
+                                    </div>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <div>
+                                        <h4>Inspiration</h4>
+                                        <p>Développement personnel continu</p>
+                                    </div>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-users"></i>
+                                    <div>
+                                        <h4>Communauté</h4>
+                                        <p>Rêveurs actifs unis</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section events-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title" data-translate="eventsTitle">Nos Événements 2024/2025</h2>
+                    <p class="section-subtitle" data-translate="eventsSubtitle">Des moments inoubliables, des expériences enrichissantes</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                
+                <!-- Timeline des événements -->
+                <div class="timeline-section" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline">
+                        <!-- Événement 1 - Journée d'intégration 2024 -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2 Déc 2023</div>
+                            <div class="timeline-content">
+                                <h4>Journée d'intégration 2024</h4>
+                                <p>Première journée d'intégration avec activités et découverte du club pour les nouveaux membres.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Intégration</span>
+                                    <span class="tag">Découverte</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="integration-2024" 
+                                        data-event-title="Journée d'intégration 2024">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 2 - Journée d'intégration 2025 -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2 Déc 2024</div>
+                            <div class="timeline-content">
+                                <h4>Journée d'intégration 2025</h4>
+                                <p>Une journée magique pleine d'échanges inspirants, d'activités enrichissantes et d'ateliers animés par nos chapitres Art, Musique et Développement personnel.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Intégration</span>
+                                    <span class="tag">Ateliers</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="integration-2025" 
+                                        data-event-title="Journée d'intégration 2025">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 3 - Chaleur -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">8 Déc 2024</div>
+                            <div class="timeline-content">
+                                <h4>Formation : L'impact de la chaleur sur la jeunesse</h4>
+                                <p>Discussion sur les effets des vagues de chaleur sur la santé et la société avec les Scouts Tunisiens.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Sensibilisation</span>
+                                    <span class="tag">Écologie</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="chaleur" 
+                                        data-event-title="Formation : L'impact de la chaleur sur la jeunesse">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-temperature-high"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 4 - Harmony 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">14 Déc 2024</div>
+                            <div class="timeline-content">
+                                <h4>Harmonie & Croissance + Concert live</h4>
+                                <p>Atelier de soft skills suivi d'un concert électrisant par le groupe Seven Skies.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Musique</span>
+                                    <span class="tag">Formation</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="harmony-1" 
+                                        data-event-title="Harmonie & Croissance + Concert live">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 5 - Personal Branding -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">20 Jan 2025</div>
+                            <div class="timeline-content">
+                                <h4>Atelier : Personal Branding & LinkedIn</h4>
+                                <p>Apprendre à rédiger un CV percutant et bâtir une présence efficace sur LinkedIn avec Zayneb Dhieb Guerfel.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Professionnel</span>
+                                    <span class="tag">Réseautage</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="personal-branding" 
+                                        data-event-title="Atelier : Personal Branding & LinkedIn">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 6 - Transport -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">Fév 2025</div>
+                            <div class="timeline-content">
+                                <h4>Journée Transport et Mobilité</h4>
+                                <p>Discussion sur les défis du transport à Sfax et proposition de pistes concrètes.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Débat</span>
+                                    <span class="tag">Solutions</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="transport" 
+                                        data-event-title="Journée Transport et Mobilité">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-bus"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 7 - Zaretna Ibarka -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">19 Mar 2025</div>
+                            <div class="timeline-content">
+                                <h4>"Zaretna El Barka 3.0" – Nuit Ramadhanèsque</h4>
+                                <p>Soirée spirituelle avec iftar collectif et ambiance soufie inoubliable.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Spiritualité</span>
+                                    <span class="tag">Partage</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="zaretna-barka" 
+                                        data-event-title="Zaretna El Barka 3.0 – Nuit Ramadhanèsque">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 8 - Game Day -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">Mai 2025</div>
+                            <div class="timeline-content">
+                                <h4>Game Day</h4>
+                                <p>Ping-pong, échecs, chasse au trésor... Une journée fun et compétitive.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Jeux</span>
+                                    <span class="tag">Détente</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="game-day" 
+                                        data-event-title="Game Day">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 9 - Harmony 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">Nov 2025</div>
+                            <div class="timeline-content">
+                                <h4>Harmony & Growth 2.0</h4>
+                                <p>Formations soft skills: Email professionnel et Entretien d'embauche, suivi d'un concert avec Sway Band.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Formation</span>
+                                    <span class="tag">Musique</span>
+                                    <span class="tag">Développement</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="harmony-2" 
+                                        data-event-title="Harmony & Growth 2.0">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Événement 10 - Football -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">01-17 Déc 2025</div>
+                            <div class="timeline-content">
+                                <h4>Tournoi de Football Dreamers Cup 2025</h4>
+                                <p>Tournoi de football en groupe suivi de phases finales. Début: 01 Décembre 2025 - Finale: 17 Décembre 2025</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Sport</span>
+                                    <span class="tag">Compétition</span>
+                                    <span class="tag">Stade Al-Farabi</span>
+                                </div>
+                                <button class="btn btn-small btn-outline open-gallery-btn" 
+                                        data-event="football" 
+                                        data-event-title="Tournoi de Football Dreamers Cup 2025">
+                                    <i class="fas fa-images"></i>
+                                    <span>Voir la galerie</span>
+                                </button>
+                            </div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapters Section -->
+        <section id="chapters" class="section chapters-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title" data-translate="chaptersTitle">Nos Chapitres</h2>
+                    <p class="section-subtitle" data-translate="chaptersSubtitle">Cinq domaines d'activité, une seule passion</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                
+                <div class="chapters-grid">
+                    <!-- Chapitre Formation et Développement -->
+                    <div class="chapter-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="chapter-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Formation & Développement</h3>
+                                <p>Enrichir les connaissances et compétences à travers formations et workshops</p>
+                                <div class="chapter-badge">01</div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h4>Formation & Développement</h4>
+                                    <ul class="chapter-features">
+                                        <li><i class="fas fa-check"></i> Formations techniques</li>
+                                        <li><i class="fas fa-check"></i> Workshops spécialisés</li>
+                                        <li><i class="fas fa-check"></i> Mentorat personnalisé</li>
+                                        <li><i class="fas fa-check"></i> Innovation continue</li>
+                                    </ul>
+                                    <div class="chapter-contact">
+                                        <p><strong>Responsable:</strong> Mahdi Ben Massoud</p>
+                                        <p><i class="fas fa-envelope"></i> mehdimassoud200@gmail.com</p>
+                                        <p><i class="fas fa-phone"></i> 99 197 010</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chapitre Art et Music -->
+                    <div class="chapter-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="chapter-icon">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <h3>Art & Music</h3>
+                                <p>Mettre en valeur les talents artistiques et musicaux de nos membres</p>
+                                <div class="chapter-badge">02</div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h4>Art & Music</h4>
+                                    <ul class="chapter-features">
+                                        <li><i class="fas fa-check"></i> Ateliers peinture</li>
+                                        <li><i class="fas fa-check"></i> Cours de chant</li>
+                                        <li><i class="fas fa-check"></i> Instruments musicaux</li>
+                                        <li><i class="fas fa-check"></i> Expositions & spectacles</li>
+                                    </ul>
+                                    <div class="chapter-contact">
+                                        <p><strong>Responsable:</strong> Amal Toumi</p>
+                                        <p><i class="fas fa-envelope"></i> amal.toumi@example.com</p>
+                                        <p><i class="fas fa-phone"></i> 22 445 566</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chapitre Safari -->
+                    <div class="chapter-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="chapter-icon">
+                                    <i class="fas fa-hiking"></i>
+                                </div>
+                                <h3>Safari</h3>
+                                <p>Explorer la Tunisie à travers excursions et sorties nature</p>
+                                <div class="chapter-badge">03</div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h4>Safari</h4>
+                                    <ul class="chapter-features">
+                                        <li><i class="fas fa-check"></i> Excursions découverte</li>
+                                        <li><i class="fas fa-check"></i> Camps nature</li>
+                                        <li><i class="fas fa-check"></i> Randonnées</li>
+                                        <li><i class="fas fa-check"></i> Respect environnement</li>
+                                    </ul>
+                                    <div class="chapter-contact">
+                                        <p><strong>Responsable:</strong> Raed Hadded</p>
+                                        <p><i class="fas fa-envelope"></i> Haddadraedraed@gmail.com</p>
+                                        <p><i class="fas fa-phone"></i> 95 607 148</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chapitre Sport -->
+                    <div class="chapter-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="chapter-icon">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <h3>Sport</h3>
+                                <p>Promouvoir l'activité physique, la santé et l'esprit d'équipe</p>
+                                <div class="chapter-badge">04</div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h4>Sport</h4>
+                                    <ul class="chapter-features">
+                                        <li><i class="fas fa-check"></i> Tournois sportifs</li>
+                                        <li><i class="fas fa-check"></i> Entraînements réguliers</li>
+                                        <li><i class="fas fa-check"></i> Événements bien-être</li>
+                                        <li><i class="fas fa-check"></i> Défis fitness</li>
+                                    </ul>
+                                    <div class="chapter-contact">
+                                        <p><strong>Responsable:</strong> Houssem Elhouch</p>
+                                        <p><i class="fas fa-envelope"></i> houssem@example.com</p>
+                                        <p><i class="fas fa-phone"></i> 12 345 678</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chapitre Loisir -->
+                    <div class="chapter-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="chapter-icon">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <h3>Loisir</h3>
+                                <p>Détente, plaisir et activités conviviales pour renforcer l'ambiance familiale</p>
+                                <div class="chapter-badge">05</div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h4>Loisir</h4>
+                                    <ul class="chapter-features">
+                                        <li><i class="fas fa-check"></i> Soirées conviviales</li>
+                                        <li><i class="fas fa-check"></i> Jeux & compétitions</li>
+                                        <li><i class="fas fa-check"></i> Activités ludiques</li>
+                                        <li><i class="fas fa-check"></i> Rencontres détente</li>
+                                    </ul>
+                                    <div class="chapter-contact">
+                                        <p><strong>Responsable:</strong> Chakib Chayeb</p>
+                                        <p><i class="fas fa-envelope"></i> chakib@example.com</p>
+                                        <p><i class="fas fa-phone"></i> 55 123 456</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bureau Exécutif Section -->
+        <section id="bureau" class="section bureau-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Bureau Exécutif 2024/2025</h2>
+                    <p class="section-subtitle">L'équipe dirigeante passionnée et dévouée</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+
+                <!-- Bureau Complet -->
+                <div class="bureau-container">
+                    <!-- Présidence -->
+                    <div class="bureau-category" data-aos="fade-up">
+                        <h3 class="category-title"><i class="fas fa-crown"></i> Présidence</h3>
+                        <div class="category-members">
+                            <!-- Président -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">01</span>
+                                        <i class="fas fa-crown rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="mahdi.jpeg" alt="Mahdi Ben Massoud" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Président</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Mahdi Ben Massoud</h4>
+                                    <p class="member-role">Président</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Leadership</span>
+                                        <span class="skill-tag">Stratégie</span>
+                                        <span class="skill-tag">Vision</span>
+                                    </div>
+                                    <div class="member-contacts">
+                                        <a href="mailto:mehdimassoud200@gmail.com" class="contact-link">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>mehdimassoud200@gmail.com</span>
+                                        </a>
+                                        <a href="tel:+21699197010" class="contact-link">
+                                            <i class="fas fa-phone"></i>
+                                            <span>99 197 010</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Vice-Président -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">02</span>
+                                        <i class="fas fa-star rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="houssem.jpg" alt="Houssem Elhouch" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Vice-Président</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Houssem Elhouch</h4>
+                                    <p class="member-role">Vice-Président</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Coordination</span>
+                                        <span class="skill-tag">Support</span>
+                                        <span class="skill-tag">Gestion</span>
+                                    </div>
+                                    <div class="member-contacts">
+                                        <a href="mailto:Elhhous4@gmail.com" class="contact-link">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>Elhhous4@gmail.com</span>
+                                        </a>
+                                        <a href="tel:+21624872052" class="contact-link">
+                                            <i class="fas fa-phone"></i>
+                                            <span>24872052</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Secrétariat -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="category-title"><i class="fas fa-file-alt"></i> Secrétariat</h3>
+                        <div class="category-members">
+                            <!-- Secrétaire Générale -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">03</span>
+                                        <i class="fas fa-feather-alt rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="imen.png" alt="Imen Hasni" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Secrétaire Générale</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Imen Hasni</h4>
+                                    <p class="member-role">Secrétaire Générale</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Organisation</span>
+                                        <span class="skill-tag">Documentation</span>
+                                        <span class="skill-tag">Communication</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ressources Humaines -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="150">
+                        <h3 class="category-title"><i class="fas fa-users"></i> Ressources Humaines</h3>
+                        <div class="category-members">
+                            <!-- Responsable RH -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">04</span>
+                                        <i class="fas fa-user-friends rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="maryemRH.png" alt="Meriem Messai" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Responsable RH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Meriem Messai</h4>
+                                    <p class="member-role">Responsable RH</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Recrutement</span>
+                                        <span class="skill-tag">Motivation</span>
+                                        <span class="skill-tag">Team Building</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marketing & Communication -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="category-title"><i class="fas fa-bullhorn"></i> Marketing & Communication</h3>
+                        <div class="category-members">
+                            <!-- Responsable Marketing -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">05</span>
+                                        <i class="fas fa-chart-line rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="houssemch.png" alt="Houssem Chaabani" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Responsable Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Houssem Chaabani</h4>
+                                    <p class="member-role">Responsable Marketing</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Stratégie Marketing</span>
+                                        <span class="skill-tag">Analyse Marché</span>
+                                        <span class="skill-tag">Promotion</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Responsable Médias -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">06</span>
+                                        <i class="fas fa-camera rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="menyar.jpg" alt="Menyar bessghayer" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Responsable Médias</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Menyar bessghayer</h4>
+                                    <p class="member-role">Responsable Médias</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Photos/Vidéos</span>
+                                        <span class="skill-tag">Réseaux Sociaux</span>
+                                        <span class="skill-tag">Contenu Digital</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Événementiel & Logistique -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="250">
+                        <h3 class="category-title"><i class="fas fa-calendar-check"></i> Événementiel & Logistique</h3>
+                        <div class="category-members">
+                            <!-- Responsable Événementiel -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">07</span>
+                                        <i class="fas fa-glass-cheers rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="amal.png" alt="Amal Toumi" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Resp. Événementiel</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Amal Toumi</h4>
+                                    <p class="member-role">Responsable Événementiel</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Planification</span>
+                                        <span class="skill-tag">Coordination</span>
+                                        <span class="skill-tag">Animation</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Responsable Logistique -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">08</span>
+                                        <i class="fas fa-truck rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="raed.jpeg" alt="Raed Hadded" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Resp. Logistique</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Raed Hadded</h4>
+                                    <p class="member-role">Responsable Logistique</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Organisation</span>
+                                        <span class="skill-tag">Gestion Matériel</span>
+                                        <span class="skill-tag">Transport</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Finances -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="category-title"><i class="fas fa-coins"></i> Finances</h3>
+                        <div class="category-members">
+                            <!-- Trésorier -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">09</span>
+                                        <i class="fas fa-calculator rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="chakib.png" alt="Chakib Chayeb" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Trésorier</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Chakib Chayeb</h4>
+                                    <p class="member-role">Trésorier</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Gestion Budget</span>
+                                        <span class="skill-tag">Comptabilité</span>
+                                        <span class="skill-tag">Sponsoring</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sponsoring & Partenariats -->
+                    <div class="bureau-category" data-aos="fade-up" data-aos-delay="350">
+                        <h3 class="category-title"><i class="fas fa-handshake"></i> Sponsoring & Partenariats</h3>
+                        <div class="category-members">
+                            <!-- Responsable Sponsoring -->
+                            <div class="bureau-member-card">
+                                <div class="member-header">
+                                    <div class="member-rank">
+                                        <span class="rank-number">10</span>
+                                        <i class="fas fa-hand-holding-usd rank-icon"></i>
+                                    </div>
+                                    <div class="member-photo-container">
+                                        <img src="oussema.png" alt="Oussema Mbarek" class="member-photo">
+                                        <div class="photo-overlay">
+                                            <span>Resp. Sponsoring</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-info">
+                                    <h4 class="member-name">Oussema Mbarek</h4>
+                                    <p class="member-role">Responsable Sponsoring</p>
+                                    <div class="member-skills">
+                                        <span class="skill-tag">Négociation</span>
+                                        <span class="skill-tag">Relations Publiques</span>
+                                        <span class="skill-tag">Partnerships</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Us Section -->
+        <section id="join" class="section join-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title" data-translate="joinTitle">Rejoignez les Dreamers</h2>
+                    <p class="section-subtitle" data-translate="joinSubtitle">Faites partie de notre famille créative</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                
+                <div class="join-content">
+                    <div class="join-features" data-aos="fade-right" data-aos-delay="200">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Une Famille</h4>
+                                <p>Rejoignez une communauté soudée et bienveillante</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Développement</h4>
+                                <p>Ateliers et formations pour votre épanouissement</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Activités</h4>
+                                <p>Événements variés tout au long de l'année</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Passion</h4>
+                                <p>Partagez vos passions avec des gens motivés</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Section pour le formulaire Google Sheets -->
+                    <div class="join-cta" data-aos="fade-left" data-aos-delay="400">
+                        <div class="cta-card">
+                            <div class="cta-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3>Formulaire de Candidature 2024/2025</h3>
+                            <p class="cta-description">
+                                Postulez maintenant pour rejoindre le Dreamers Club FSS via notre formulaire de recrutement professionnel.
+                                Nous recherchons des membres passionnés, créatifs et motivés pour construire l'avenir ensemble.
+                            </p>
+                            
+                            <div class="cta-stats">
+                                <div class="stat">
+                                    <span class="stat-number">5</span>
+                                    <span class="stat-label">Chapitres</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">12</span>
+                                    <span class="stat-label">Postes disponibles</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">72h</span>
+                                    <span class="stat-label">Temps de réponse</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-note">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Remplissez le formulaire ci-dessous pour postuler</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Formulaire Google Apps Script Iframe -->
+                <div class="form-container" data-aos="fade-up" data-aos-delay="600">
+                    <div class="form-header">
+                        <h3><i class="fas fa-user-plus"></i> Formulaire de Recrutement</h3>
+                        <p class="form-subtitle">Complétez toutes les informations pour soumettre votre candidature</p>
+                    </div>
+                    
+                    <div class="form-wrapper">
+                        <!-- REMPLACEZ CETTE URL PAR VOTRE URL APPS SCRIPT -->
+                        <iframe 
+                            src="https://script.google.com/macros/s/AKfycbxrd2JHXyPZ3weEut0pCMi6RyEOW2yuUInhdRwmDr9EKEzf_qVU60H_8tkYNOjQOjMPlw/exec" 
+                            id="recruitmentForm"
+                            width="100%" 
+                            height="1000px" 
+                            frameborder="0" 
+                            scrolling="no"
+                            loading="lazy"
+                            title="Formulaire de recrutement Dreamers Club FSS">
+                        </iframe>
+                        
+                        <div class="form-notes">
+                            <div class="note">
+                                <i class="fas fa-lock"></i>
+                                <span>Vos données sont sécurisées et confidentielles</span>
+                            </div>
+                            <div class="note">
+                                <i class="fas fa-clock"></i>
+                                <span>Réponse garantie dans les 72 heures</span>
+                            </div>
+                            <div class="note">
+                                <i class="fas fa-question-circle"></i>
+                                <span>Problème avec le formulaire ? <a href="mailto:dreamersclubfss@gmail.com">Contactez-nous</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title" data-translate="contactTitle">Contact</h2>
+                    <p class="section-subtitle" data-translate="contactSubtitle">Restons connectés</p>
+                    <div class="section-divider">
+                        <div class="divider-line"></div>
+                        <div class="divider-diamond"></div>
+                        <div class="divider-line"></div>
+                    </div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                        <div class="info-card">
+                            <div class="info-header">
+                                <h3><i class="fas fa-map-marker-alt"></i> <span data-translate="officeTitle">Notre Local</span></h3>
+                            </div>
+                            <div class="info-body">
+                                <p class="address">
+                                    <strong>Dreamers Club FSS</strong><br>
+                                    Faculté des Sciences de Sfax<br>
+                                    Route de l'Aéroport, Km 0.5<br>
+                                    3000 Sfax, Tunisie
+                                </p>
+                                <div class="contact-methods">
+                                    <div class="contact-method">
+                                        <i class="fas fa-envelope"></i>
+                                        <div>
+                                            <span class="method-label">Email</span>
+                                            <a href="mailto:dreamersclubfss@gmail.com">dreamers.club.fss@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fas fa-phone"></i>
+                                        <div>
+                                            <span class="method-label">Téléphone</span>
+                                            <a href="tel:+21699197010">+216 99 197 010</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fab fa-facebook"></i>
+                                        <div>
+                                            <span class="method-label">Facebook</span>
+                                            <a href="https://facebook.com/dreamersclubfss" target="_blank">Dreamers Club FSS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-card">
+                            <h4>Suivez-nous</h4>
+                            <div class="social-grid">
+                                <a href="https://www.facebook.com/share/1A5ocWaCyv/" target="_blank" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com/dreamers.club.fss?igsh=MTdqdWR3YjlqeWg3ag==" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link youtube">
+                                    <i class="fab fa-youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                                <a href="#" class="social-link tiktok">
+                                    <i class="fab fa-tiktok"></i>
+                                    <span>TikTok</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Horaires & Disponibilités -->
+                    <div class="hours-section" data-aos="fade-left" data-aos-delay="400">
+                        <h3 class="hours-title">Horaires & Disponibilités</h3>
+                        <div class="hours-card">
+                            <div class="hours-grid">
+                                <div class="hour-day">
+                                    <span class="day">Lundi - Vendredi</span>
+                                    <span class="time">09:00 - 17:00</span>
+                                </div>
+                                <div class="hour-day">
+                                    <span class="day">Samedi</span>
+                                    <span class="time">10:00 - 14:00</span>
+                                </div>
+                                <div class="hour-day">
+                                    <span class="day">Dimanche</span>
+                                    <span class="time">Fermé</span>
+                                </div>
+                            </div>
+                            <div class="hours-note">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Pour les rendez-vous en dehors des horaires, contactez-nous par email</p>
+                            </div>
+                        </div>
+                        
+                        <div class="quick-contact">
+                            <h4>Contact Rapide</h4>
+                            <div class="quick-buttons">
+                                <a href="mailto:dreamersclubfss@gmail.com" class="quick-btn email">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Envoyer un email</span>
+                                </a>
+                                <a href="tel:+21699197010" class="quick-btn phone">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Appeler maintenant</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Partenaires -->
+                <div class="partners-section" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="partners-title">Nos Partenaires</h3>
+                    <div class="partners-logos">
+                        <!-- Scouts -->
+                        <div class="partner-logo">
+                            <div class="logo-container">
+                                <img src="kachefa.jpg" alt="Scouts Tunisiens" class="partner-image">
+                                <div class="logo-overlay">
+                                    <p class="partner-name">Scouts Tunisiens</p>
+                                    <div class="partner-social-links">
+                                        <a href="https://www.facebook.com/share/1BvZoAhktz/" target="_blank" class="social-btn facebook-btn">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/hayhabib.scoutstunisiens" target="_blank" class="social-btn instagram-btn">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- A Leur Rescousse -->
+                        <div class="partner-logo">
+                            <div class="logo-container">
+                                <img src="A Leur Rescousse.jpg" alt="A Leur Rescousse" class="partner-image">
+                                <div class="logo-overlay">
+                                    <p class="partner-name">A Leur Rescousse</p>
+                                    <div class="partner-social-links">
+                                        <a href="https://www.facebook.com/share/1avHmonoZf/" target="_blank" class="social-btn facebook-btn">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/association_a_leur_rescousse?igsh=NmYxMnR5NjIzOHVr" target="_blank" class="social-btn instagram-btn">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Fondation Abass National -->
+                        <div class="partner-logo">
+                            <div class="logo-container">
+                                <img src="fondation_abass_national.jpg" alt="Fondation Abass National" class="partner-image">
+                                <div class="logo-overlay">
+                                    <p class="partner-name">Fondation Abass National</p>
+                                    <div class="partner-social-links">
+                                        <a href="https://www.facebook.com/share/1Cr6whuHD9/" target="_blank" class="social-btn facebook-btn">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/fondation_abass_national?igsh=MW9vM3IxYWdic3Jtbw==" target="_blank" class="social-btn instagram-btn">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <div class="logo-img-wrapper">
+                                <img src="logo.png" alt="Dreamers Club FSS Logo">
+                            </div>
+                            <div class="logo-text">
+                                <h3>Dreamers Club FSS</h3>
+                                <p data-translate="homeSubtitle">Rêver. Créer. Inspirer.</p>
+                            </div>
+                        </div>
+                        <p class="footer-description" data-translate="homeDescription">
+                            Un club dynamique et polyvalent au sein de la Faculté des Sciences de Sfax, 
+                            dédié à la formation, au développement personnel et à l'épanouissement de ses membres.
+                        </p>
+                        <div class="institution-info">
+                            <p><i class="fas fa-university"></i> Faculté des Sciences de Sfax</p>
+                            <p><i class="fas fa-graduation-cap"></i> Université de Sfax</p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4 class="footer-title" data-translate="quickLinks">Liens Rapides</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> <span data-translate="home">Accueil</span></a></li>
+                            <li><a href="#information"><i class="fas fa-chevron-right"></i> <span data-translate="information">Notre Histoire</span></a></li>
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> <span data-translate="chapters">Chapitres</span></a></li>
+                            <li><a href="#events"><i class="fas fa-chevron-right"></i> <span data-translate="events">Événements</span></a></li>
+                            <li><a href="#bureau"><i class="fas fa-chevron-right"></i> <span>Bureau</span></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4 class="footer-title" data-translate="ourChapters">Nos Chapitres</h4>
+                        <ul class="footer-links">
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> Formation & Développement</a></li>
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> Art & Music</a></li>
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> Safari</a></li>
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> Sport</a></li>
+                            <li><a href="#chapters"><i class="fas fa-chevron-right"></i> Loisir</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4 class="footer-title" data-translate="contactInfo">Contact</h4>
+                        <div class="footer-contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Faculté des Sciences, Sfax</p>
+                            <p><i class="fas fa-envelope"></i> dreamers.club.fss@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +216 99 197 010</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/share/1A5ocWaCyv/" target="_blank" class="social-icon facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/dreamers.club.fss?igsh=MTdqdWR3YjlqeWg3ag==" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-icon tiktok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">
+                        &copy; 2024 Dreamers Club FSS. Tous droits réservés. | 
+                        Faculté des Sciences de Sfax - Université de Sfax
+                    </p>
+                    <div class="footer-bottom-links">
+                        <a href="#home" class="back-to-top">
+                            <i class="fas fa-arrow-up"></i>
+                            <span data-translate="backToTop">Retour en haut</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="gallery-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="galleryTitle">Galerie</h3>
+                <button class="close-gallery">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="gallery-main">
+                    <button class="gallery-nav prev" aria-label="Précédent">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="gallery-viewer">
+                        <!-- Media will be inserted here by JavaScript -->
+                    </div>
+                    <button class="gallery-nav next" aria-label="Suivant">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="gallery-controls">
+                    <div class="media-info">
+                        <span class="current-index">1</span>
+                        <span class="separator">/</span>
+                        <span class="total-count">0</span>
+                        <span class="media-type-badge">Photo</span>
+                    </div>
+                    <div class="media-actions">
+                        <button class="action-btn zoom-btn" title="Zoom">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                        <button class="action-btn fullscreen-btn" title="Plein écran">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-thumbnails">
+                    <!-- Thumbnails will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
